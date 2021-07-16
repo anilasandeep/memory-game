@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="mem.css">
+        <h1><b>MEMORY GAME</b></h1>
+        <script type="text/javascript" src="mem.js">
+        </script>
+    </head>
+    <body>
+        <img display="block" src="no.jpg" width="150px" height="200px" id="img1" onclick="img(this.id);setTimeout(function(){
+            step();
+        },1000);">
+        <img src="no.jpg" width="150px" height="200px" id="img2" onclick="img(this.id);setTimeout(function(){
+            step();
+        },1000);">
+        <img src="no.jpg" width="150px" height="200px" id="img3" onclick="img(this.id);setTimeout(function(){
+            step();
+        },1000);"><br>
+        <img src="no.jpg" width="150px" height="200px" id="img4" onclick="img(this.id);setTimeout(function(){
+            step();
+        },1000);">
+        <img src="no.jpg" width="150px" height="200px" id="img5" onclick="img(this.id);setTimeout(function(){
+            step();
+        },1000);">
+        <img src="no.jpg" width="150px" height="200px" id="img6" onclick="img(this.id);setTimeout(function(){
+            step();
+        },1000);"><br>
+        <button onclick="mem()" value="START GAME" id="start">START GAME</button> 
+        <b>TIMER:</b> <output id="timer"></output>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background: yellowgreen;
+}
+h1 {
+    color: blue;
+}
+img {
+    display: inline-block;
+}
